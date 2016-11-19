@@ -8,7 +8,7 @@ include_once('simple_html_dom.php');
 
 
 
-            $target_url ='http://www.marinetraffic.com/en/ais/details/ports/'.$portname.'';
+            $target_url ='http://www.marinetraffic.com/en/ais/details/ports/Shanghai;
             $html = new simple_html_dom();
             $html->load_file($target_url);
             $crawlds[++$counts] = array();
